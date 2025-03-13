@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Análisis de Datos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="./img/logo_renzo_.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="./img/logo_renzo.png" alt="Renzo Molina Logo" />
+          </a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Renzo Molina</h1>
+        <h2>Analista de Datos</h2>
+        <p>
+          ¡Descubre el poder de los datos! Acompáñame en mi viaje como
+          practicante en análisis de datos, transformando información en
+          conocimiento útil para decisiones inteligentes. ¡Explora mis proyectos
+          en Data Analytics.
+        </p>
+        <a href="#proyectos" class="btn">Ver Proyectos</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+      <h2>Sobre Mí</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Soy Renzo Molina, estudiante de Ingeniería de Software en la
+            Universidad Tecnológica del Perú, apasionado por la tecnología y el
+            desarrollo de soluciones innovadoras. Tengo experiencia en Python,
+            SQL, Power BI y Excel, aplicando estos conocimientos en análisis de
+            datos y automatización de procesos. Busco mi primera oportunidad de
+            prácticas pre profesionales para aprender, colaborar con equipos
+            multidisciplinarios y aportar ideas frescas. Me caracterizo por ser
+            autodidacta, adaptable y siempre dar el extra en cada desafío. Mi
+            objetivo es contribuir a la transformación digital mientras sigo
+            desarrollando mis habilidades en un entorno empresarial real.
+          </p>
+        </div>
+        <div class="about-image">
+          <!-- Aquí puedes añadir tu foto -->
+          <img src="img/FOTO_RENZO.jpg" alt="Tu Foto" />
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+      <h2>Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-file-excel"></i>
+          </div>
+          <h3>Excel</h3>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>PowerBI</h3>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>SQL</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+      <h2>Proyectos Destacados</h2>
+      <div class="project-container">
+        <div class="project-header">
+          <h3>Análisis Financiero de Películas Pixar</h3>
+          <p>
+            Exploración de datos sobre presupuestos y rendimiento financiero de
+            las películas de Pixar (1995-2024)
+          </p>
+        </div>
+        <div class="project-iframe-container">
+          <iframe
+            title="Pixar_films"
+            width="100%"
+            height="580"
+            src="https://app.powerbi.com/view?r=eyJrIjoiN2E2YjdlM2QtYTJiMS00ZmY5LWJhMzQtYTBmYTM1MjZhMzkyIiwidCI6ImM0YTY2YzM0LTJiYjctNDUxZi04YmUxLWIyYzI2YTQzMDE1OCIsImMiOjR9"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="project-footer">
+          <a
+            href="./projects/pixar_films.pdf"
+            target="_blank"
+            class="btn project-btn"
+          >
+            <i class="fas fa-file-pdf"></i> Ver Informe Detallado
+          </a>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-header">
+          <h3>Análisis de Universidades Licenciadas y No Licenciadas en Perú (SUNEDU)</h3>
+          <p>
+            Exploración del estado de licenciamiento de universidades en Perú según SUNEDU, mostrando cantidades licenciadas y no licenciadas, con opción de filtrar por estado y ubicación.
+          </p>
+        </div>
+        <div class="project-iframe-container">
+          <iframe
+            title="Pixar_films"
+            width="100%"
+            height="580"
+            src="https://app.powerbi.com/view?r=eyJrIjoiNTE1MTBlMjgtYTMyZC00NWI3LTk5ZWYtNzMzMDE5YmZhZDQwIiwidCI6ImM0YTY2YzM0LTJiYjctNDUxZi04YmUxLWIyYzI2YTQzMDE1OCIsImMiOjR9"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+        <div class="project-footer">
+          <a
+            href="./projects/Análisis_Sunedu.pdf"
+            target="_blank"
+            class="btn project-btn"
+          >
+            <i class="fas fa-file-pdf"></i> Ver Informe Detallado
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <h2>Contacto</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>
+            ¿Interesado en colaborar o saber más sobre mi trabajo? ¡Contáctame!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:renzomolina24@hotmail.com" target="_blank">
+              <i class="fas fa-envelope"></i> renzomolina24@hotmail.com
+            </a>
+            <a
+              href="https://www.linkedin.com/in/renzo-molina-a04324233"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/renzomolina24" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a
+              href="https://wa.me/51933693095?text=Hola%20Renzo,%20vi%20tu%20portafolio%20y%20me%20gustaría%20hablar%20contigo"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formsubmit.co/renzomolina24@hotmail.com"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn submit-btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Renzo Molina. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
